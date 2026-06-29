@@ -22,6 +22,26 @@ class Flamingo_Contact {
 			),
 			'rewrite' => false,
 			'query_var' => false,
+			'capability_type' => array(
+			    'flamingo_edit_options',
+				'flamingo_edit_options',
+			),
+			'capabilities' => array(
+          		'edit_post' => 'flamingo_edit_contact',
+          		'read_post' => 'flamingo_edit_contact',
+          		'delete_post' => 'flamingo_delete_contact',
+          		'edit_posts' => 'flamingo_edit_contacts',
+          		'edit_others_posts' => 'flamingo_edit_contacts',
+          		'delete_posts' => 'flamingo_delete_contacts',
+          		'publish_posts' => 'flamingo_edit_contacts',
+          		'read_private_posts' => 'flamingo_edit_contacts',
+          		'read' => 'flamingo_edit_contacts',
+          		'delete_private_posts' => 'flamingo_delete_contacts',
+          		'delete_published_posts' => 'flamingo_delete_contacts',
+          		'delete_others_posts' => 'flamingo_delete_contacts',
+          		'edit_private_posts' => 'flamingo_edit_contacts',
+          		'edit_published_posts' => 'flamingo_edit_contacts',
+			),
 		) );
 
 		register_taxonomy( self::contact_tag_taxonomy, self::post_type, array(
