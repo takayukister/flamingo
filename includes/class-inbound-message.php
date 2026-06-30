@@ -72,6 +72,12 @@ class Flamingo_Inbound_Message {
 			'hierarchical' => true,
 			'rewrite' => false,
 			'query_var' => false,
+			'capabilities' => array(
+				'manage_terms' => 'flamingo_edit_options',
+				'edit_terms' => 'flamingo_edit_options',
+				'delete_terms' => 'flamingo_edit_options',
+				'assign_terms' => 'flamingo_edit_options',
+			),
 		) );
 	}
 

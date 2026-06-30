@@ -52,6 +52,12 @@ class Flamingo_Contact {
 			'public' => false,
 			'rewrite' => false,
 			'query_var' => false,
+			'capabilities' => array(
+				'manage_terms' => 'flamingo_edit_options',
+				'edit_terms' => 'flamingo_edit_options',
+				'delete_terms' => 'flamingo_edit_options',
+				'assign_terms' => 'flamingo_edit_options',
+			),
 		) );
 	}
 
