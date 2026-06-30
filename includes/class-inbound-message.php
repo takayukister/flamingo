@@ -31,6 +31,8 @@ class Flamingo_Inbound_Message {
 				'name' => __( 'Flamingo Inbound Messages', 'flamingo' ),
 				'singular_name' => __( 'Flamingo Inbound Message', 'flamingo' ),
 			),
+			'public' => false,
+			'show_in_rest' => false,
 			'rewrite' => false,
 			'query_var' => false,
 			'capability_type' => array(

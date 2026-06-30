@@ -20,6 +20,8 @@ class Flamingo_Contact {
 				'name' => __( 'Flamingo Contacts', 'flamingo' ),
 				'singular_name' => __( 'Flamingo Contact', 'flamingo' ),
 			),
+			'public' => false,
+			'show_in_rest' => false,
 			'rewrite' => false,
 			'query_var' => false,
 			'capability_type' => array(
