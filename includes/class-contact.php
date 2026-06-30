@@ -52,6 +52,7 @@ class Flamingo_Contact {
 				'singular_name' => __( 'Flamingo Contact Tag', 'flamingo' ),
 			),
 			'public' => false,
+			'show_in_rest' => false,
 			'rewrite' => false,
 			'query_var' => false,
 			'capabilities' => array(

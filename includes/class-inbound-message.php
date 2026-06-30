@@ -71,6 +71,7 @@ class Flamingo_Inbound_Message {
 				'singular_name' => __( 'Flamingo Inbound Message Channel', 'flamingo' ),
 			),
 			'public' => false,
+			'show_in_rest' => false,
 			'hierarchical' => true,
 			'rewrite' => false,
 			'query_var' => false,
