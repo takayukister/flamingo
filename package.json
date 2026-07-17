@@ -20,6 +20,6 @@
 	},
 	"homepage": "https://github.com/rocklobster-in/flamingo#readme",
 	"devDependencies": {
-		"@wordpress/scripts": "^32.1.0"
+		"@wordpress/scripts": "^33.0.0"
 	}
 }

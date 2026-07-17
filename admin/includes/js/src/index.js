@@ -18,5 +18,4 @@ document.addEventListener( 'DOMContentLoaded', event => {
 		} );
 	} );
 
-	postboxes.add_postbox_toggles( flamingo.screenId );
 } );
