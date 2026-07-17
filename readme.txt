@@ -34,6 +34,10 @@ This plugin stores submission data collected through contact forms, which may in
 
 == Changelog ==
 
+= 2.6.3 =
+
+* Security enhancement: Assigns specific capabilities to the custom post types and taxonomies.
+
 = 2.6.2 =
 
 * Security enhancement: Blocks a potential bypass of a known spreadsheet vulnerability.
