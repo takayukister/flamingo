@@ -34,6 +34,10 @@ This plugin stores submission data collected through contact forms, which may in
 
 == Changelog ==
 
+= 2.6.4 =
+
+* Confirmed WordPress 7.1 compatibility.
+
 = 2.6.3 =
 
 * Security enhancement: Assigns specific capabilities to the custom post types and taxonomies.
